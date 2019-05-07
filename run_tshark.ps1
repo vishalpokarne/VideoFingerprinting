@@ -1,0 +1,1 @@
+D:\VideoFingerprint\Wireshark\tshark.exe -i wi-fi -f "tcp port 443" -c 8000 -s 20 -T fields -e eth.src -e eth.dst > D:\VideoFingerprint\Output\$args
